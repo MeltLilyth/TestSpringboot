@@ -1,10 +1,10 @@
 package com.yuri.TestSpringBoot.Entity;
 
 public class UserEntity extends User {
-    private String m_emailAddresss;
-    private String m_phoneNumber;
-    private String m_userSex;
-    private String m_signText;
+    protected String m_emailAddresss;
+    protected String m_phoneNumber;
+    protected String m_userSex;
+    protected String m_signText;
 
     public UserEntity() {
     }
