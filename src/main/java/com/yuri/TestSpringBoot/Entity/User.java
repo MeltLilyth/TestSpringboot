@@ -1,9 +1,9 @@
 package com.yuri.TestSpringBoot.Entity;
 
 public class User {
-    private String m_userId;  //用户Id
-    private String m_username;//用户名
-    private String m_password;//用户密码
+    protected String m_userId;  //用户Id
+    protected String m_username;//用户名
+    protected String m_password;//用户密码
 
     public User() {
     }
